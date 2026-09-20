@@ -19,7 +19,7 @@ def actualizar_stock(nombre, nueva_cantidad):
         print(f"Stock de '{nombre}' actualizado a {nueva_cantidad}.")
     else:
         print(f"El producto '{nombre}' no existe.")
-
+        
 def mostrar_inventario():
     if not inventario:
         print("El inventario está vacío.")
